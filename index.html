@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <style>
+    .hallete {
+      display: grid;
+      flex-direction: column;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 7.5px 15px;
+      font-family: "VK-Sans-Display",
+    }
+
+    .ultrawide1 {
+      grid-column-end: span 1;
+      grid-row-end: span 2;
+    }
+
+    .ultrawide2 {
+      grid-column-end: span 2;
+      grid-row-end: span 1;
+    }
+
+    @font-face {
+      font-family: "VK-Sans-Display";
+      src: url("./VK_Sans_Display_Medium.woff2") format("woff2"),
+        url("./VK_Sans_Display_Medium.woff") format("woff");
+      font-weight: 500;
+      font-display: fallback;
+    }
+
+    * {
+      font-family: "VK-Sans-Display";
+      font-weight: 500;
+      font-style: normal;
+    }
+  </style>
+
+  <script type="module" crossorigin src="/assets/index-1a5d5622.js"></script>
+  <link rel="stylesheet" href="/assets/index-d875e0c8.css">
+  <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};window.__vite_is_modern_browser=true;</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+  <div id="root"></div>
+  
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-d49a1688.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-ce2bebd6.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>
